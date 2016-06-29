@@ -12,10 +12,8 @@ def triangle_area(width, height):
     return width * height / 2
 # 4
 def range_sum(begin, end):
-    a = 0
-    for i in range(begin, end + 1):
-        a = i + a
-    return a
+    make_list = list(range(begin,end+1))
+    return sum(make_list)
 
 # 5
 class Point:
